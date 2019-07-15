@@ -1,0 +1,1 @@
+$(function(){function n(){12<$(window).scrollTop()?$(".navbar").addClass("scrolled"):$(".navbar").removeClass("scrolled")}$(".nav-link").click(function(){$(".navbar-collapse").removeClass("show")}),$(".navbar-toggler").click(function(){$(".navbar").toggleClass("bac")}),n(),$(window).on("scroll",function(){n()})});
